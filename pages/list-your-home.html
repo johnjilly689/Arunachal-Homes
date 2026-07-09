@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arunachal Homes | List your home</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="nav-logo" href="../index.html">
+        <img src="../assets/icons/logo.jpeg" alt="Arunachal Homes logo" />
+        <span>Arunachal Homes</span>
+      </a>
+      <button class="mobile-nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav class="nav-links">
+        <a href="../index.html" data-nav-link="home">Home</a>
+        <a href="listings.html" data-nav-link="listings">Listings</a>
+        <a href="how-it-works.html" data-nav-link="how-it-works">How it works</a>
+        <a href="about.html" data-nav-link="about">About</a>
+        <a href="contact.html" data-nav-link="contact">Contact</a>
+        <a href="list-your-home.html" class="nav-cta">List your home</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <h1>List your homestay</h1>
+          <p>Earn more from your property by reaching verified travelers from across India.</p>
+        </div>
+      </section>
+
+      <section class="page-content">
+        <div class="container">
+          <div class="section-title" style="margin-bottom:16px;">Why list with us?</div>
+          <div class="benefits-grid">
+            <div class="benefit-card"><div class="benefit-icon">💸</div><div class="benefit-title">Free to list</div><div class="benefit-desc">Zero upfront cost. You only pay a commission when a tourist actually stays.</div></div>
+            <div class="benefit-card"><div class="benefit-icon">📸</div><div class="benefit-title">We take the photos</div><div class="benefit-desc">We visit your property and photograph it professionally at no cost to you.</div></div>
+            <div class="benefit-card"><div class="benefit-icon">👥</div><div class="benefit-title">Verified tourists only</div><div class="benefit-desc">We screen every inquiry so you receive genuine, respectful guests.</div></div>
+            <div class="benefit-card"><div class="benefit-icon">📈</div><div class="benefit-title">More bookings</div><div class="benefit-desc">Properties listed with us receive more tourist inquiries within weeks.</div></div>
+          </div>
+
+          <div class="section-title" style="margin-top:24px; margin-bottom:12px;">How to get listed</div>
+          <div class="step-list">
+            <div class="step-item">
+              <div class="step-number">1</div>
+              <div class="step-body">
+                <h3>Fill the form below</h3>
+                <p>Tell us about your property, location, rooms, and what makes it special.</p>
+              </div>
+            </div>
+            <div class="step-item">
+              <div class="step-number">2</div>
+              <div class="step-body">
+                <h3>We visit your property</h3>
+                <p>We inspect and photograph it to verify the listing meets our quality standards.</p>
+              </div>
+            </div>
+            <div class="step-item">
+              <div class="step-number">3</div>
+              <div class="step-body">
+                <h3>Sign our simple agreement</h3>
+                <p>A short agreement covering commission, standards, and booking flow.</p>
+              </div>
+            </div>
+            <div class="step-item">
+              <div class="step-number">4</div>
+              <div class="step-body">
+                <h3>Go live and earn</h3>
+                <p>Your listing goes live and travelers can find you quickly.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-section" style="margin-top:22px;">
+            <h3 style="margin-bottom:6px;">Apply to list your property</h3>
+            <p style="margin-bottom:16px; color:var(--gray);">Fill this form and we will contact you within 24 hours to arrange a visit.</p>
+            <div class="form-row">
+              <div class="form-group"><label>Your name</label><input id="owner-name" type="text" placeholder="Full name" /></div>
+              <div class="form-group"><label>WhatsApp number</label><input id="owner-whatsapp" type="tel" placeholder="+91 XXXXX XXXXX" /></div>
+            </div>
+            <div class="form-group"><label>Property name</label><input id="property-name" type="text" placeholder="Name of your homestay or property" /></div>
+            <div class="form-row">
+              <div class="form-group"><label>District</label><select id="property-district"><option>Select district</option><option>Lower Subansiri</option><option>Tawang</option><option>West Siang</option><option>East Siang</option><option>Other</option></select></div>
+              <div class="form-group"><label>Village / City</label><input id="property-village" type="text" placeholder="e.g. Ziro, Mechuka" /></div>
+            </div>
+            <div class="form-group"><label>Colony / Area</label><input id="property-area" type="text" placeholder="Colony or area name" /></div>
+            <div class="form-row">
+              <div class="form-group"><label>Number of rooms</label><input id="property-rooms" type="number" placeholder="e.g. 2" /></div>
+              <div class="form-group"><label>Price per night (₹)</label><input id="property-price" type="number" placeholder="e.g. 1200" /></div>
+            </div>
+            <div class="form-group"><label>Sleeping arrangement</label><select id="property-sleeping"><option>Select type</option><option>Bed (single)</option><option>Bed (double)</option><option>Floor sleeping (traditional)</option><option>Mix of both</option></select></div>
+            <div class="form-group"><label>Meals available?</label><select id="property-meals"><option>Select</option><option>Yes — included in price</option><option>Yes — extra charge</option><option>No meals</option></select></div>
+            <div class="form-group"><label>Tell us what makes your homestay special</label><textarea id="property-special" placeholder="Views, local culture, food, anything unique about your property..."></textarea></div>
+            <button id="submit-property-form" class="submit-btn" type="button">Submit application</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <div class="footer-logo">🏡 Arunachal Homes</div>
+        <p>Verified homestays, local hosts, and personal support across Arunachal Pradesh.</p>
+      </div>
+      <div class="footer-columns">
+        <div class="footer-column">
+          <h4>Explore</h4>
+          <a href="../index.html">Home</a>
+          <a href="listings.html">Listings</a>
+          <a href="how-it-works.html">How It Works</a>
+        </div>
+        <div class="footer-column">
+          <h4>Hosts</h4>
+          <a href="list-your-home.html">List Your Home</a>
+          <a href="terms-and-conditions.html#host-agreement">Host Agreement</a>
+        </div>
+        <div class="footer-column">
+          <h4>Support</h4>
+          <a href="contact.html">Contact</a>
+          <a href="terms-and-conditions.html#cancellation-refund-policy">Cancellation Policy</a>
+        </div>
+        <div class="footer-column">
+          <h4>Legal</h4>
+          <a href="terms-and-conditions.html#terms-and-conditions">Terms &amp; Conditions</a>
+          <a href="terms-and-conditions.html#privacy-policy">Privacy Policy</a>
+          <a href="terms-and-conditions.html#cookie-policy">Cookies</a>
+        </div>
+        <div class="footer-column">
+          <h4>Follow</h4>
+          <a href="https://www.instagram.com/arunachal_home/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://www.facebook.com/profile.php?id=61591777850166" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a href="https://wa.me/9362726852" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+          <a href="terms-and-conditions.html#terms-and-conditions">Terms &amp; Conditions</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-copy">© 2026 Arunachal Homes · Made with ❤️ in Arunachal Pradesh</div>
+        <div class="footer-legal-links">
+          <a href="terms-and-conditions.html#privacy-policy">Privacy Policy</a>
+          <a href="terms-and-conditions.html#host-agreement">Host Agreement</a>
+          <a href="terms-and-conditions.html#cancellation-refund-policy">Cancellation &amp; Refund Policy</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>
