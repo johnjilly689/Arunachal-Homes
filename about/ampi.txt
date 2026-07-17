@@ -1,0 +1,7 @@
+property details:
+1) property images - `assets/Product-images/ampi-jam-hotel`
+
+2) about property - Located in Itanagar. ILP is mandatory. The hotel is beside the main road near the market area. It is a good hotel option if you want to stay in the city.
+
+3) room type - AC room: 1500
+                Non-AC room: 1200

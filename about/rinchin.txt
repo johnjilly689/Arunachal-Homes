@@ -1,0 +1,6 @@
+property details:
+1) property images - `assets/Product-images/Rinchin-Homestay`
+
+2) about property - Breakfast and tea are included free of charge. ILP is mandatory. There is no Wi-Fi, but mobile network is available. It is best for peaceful work. You can find mountain views and a river near the homestay. Parking is available.
+
+3) room type - Two rooms are available. One room can accommodate up to four people. Prices start at 2000.
